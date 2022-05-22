@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "GongGothicBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GongGothicLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "GongGothicBold";
+  font-size: 150px;
+  width: 1280px;
+  height: 720px;
+  margin: 100px auto 0;
+  background-color: #000;
+  color: #fff;
+}
+#mainVisual .firstRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+#mainVisual .secondRow {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+#mainVisual .secondRow span {
+  margin-left: 250px;
+}
+#mainVisual .thirdRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+#mainVisual .thirdRow #know {
+  display: flex;
+}
+#mainVisual .thirdRow #know span {
+  margin-right: 250px;
+}
+#mainVisual .fourthRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+#mainVisual span:hover {
+  color: aqua;
+}
